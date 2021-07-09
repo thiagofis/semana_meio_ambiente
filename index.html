@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Semana Meio Ambiente</title>
+
+    <!-- Favicon icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+        <img src="images/icon.png" width="150" class="d-inline-block align-top" alt="">
+    </a>    
+    <a class="nav-link my-2 my-sm-0" href="https://jogosipeporto.azurewebsites.net/Login">Login</a>
+</nav>
+
+<div class="clearfix"></div>
+
+
+<div class="container">
+
+    <form class="multisteps-form__form" action="https://jogosipeporto.azurewebsites.net/Home/Select" id="wizard" method="POST">
+    <div class="form-area position-relative">
+        <!-- div 5 -->
+        <div class="multisteps-form__panel js-active" data-animation="slideHorz">
+            <div class="wizard-forms">
+                <div class="inner pb-100 clearfix">
+                    <div class="form-content pera-content">
+                        <div class="step-inner-content">
+
+                            <h2>Dinâmicas</h2>
+                            <p>Quer revelar um pouco mais sobre sua personalidade, testar sua memória sustentável e conhecer curiosidades? Escolha uma das nossas dinâmicas abaixo e comece a jogar!</p>
+                            <div class="step-content-field">
+                                <div class="plan-area">
+                                    <div class="plan-icon-text text-center">
+                                        <div class="plan-icon">
+                                            <i class="fad fa-brain"></i>
+                                        </div>
+                                        <div class="plan-text">
+                                            <h3>Ser Líder</h3>
+                                            <small>(Jogo da Memória)</small>
+                                            <p>Uma liderança vai sempre ajudar seu time a encontrar caminhos e compartilhar conhecimento</p>
+                                            <input type="radio" name="game" value="memory" checked>
+                                        </div>
+                                    </div>
+                                    <div class="plan-icon-text text-center">
+                                        <div class="plan-icon">
+                                            <i class="fad fa-globe-americas"></i>
+                                        </div>
+                                        <div class="plan-text">
+                                            <h3>Ser Humano</h3>
+                                            <small>(Quiz)</small>
+                                            <p>Explore os conceitos socioambientais como a sustentabilidade, o equilíbrio e o respeito.</p>
+                                            <input type="radio" name="game" value="social" checked>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plan-area">
+                                    <div class="plan-icon-text text-center">
+                                        <div class="plan-icon">
+                                            <i class="fad fa-seedling"></i>
+                                        </div>
+                                        <div class="plan-text">
+                                            <h3>Ser Consciente</h3>
+                                            <small>(Quiz)</small>
+                                            <p>Faz sentido pra você participar de iniciativas sustentáveis e diálogos sobre o meio ambiente?</p>
+                                            <input type="radio" name="game" value="consciente" checked>
+                                        </div>
+                                    </div>
+                                    <div class="plan-icon-text text-center">
+                                        <div class="plan-icon">
+                                            <i class="fad fa-recycle"></i>
+                                        </div>
+                                        <div class="plan-text">
+                                            <h3>Ser Protetor</h3>
+                                            <small>(Quiz)</small>
+                                            <p>Você é um Protetor na Mineração Morro do Ipê, ou no Porto Sudeste do Brasil e reconhece desvios?</p>
+                                            <input type="radio" name="game" value="protetor" checked>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plan-area">
+                                    <div class="plan-icon-text text-center">
+                                        <div class="plan-icon">
+                                            <i class="fad fa-hashtag"></i>
+                                        </div>
+                                        <div class="plan-text">
+                                            <h3>Ser Parceiro</h3>
+                                            <small>(BuzzFeed)</small>
+                                            <p>Você vai descobrir qual Empresa Parceira mais se parece com sua personalidade no trabalho.</p>
+                                            <input type="radio" name="game" value="buzzfeed" checked>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.inner -->
+                <div class="actions start-action">
+                    <ul>
+                        <li class="start"><button type="submit" title="NEXT">Começar!</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</div>
+
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/conditionize.flexible.jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/switch.js"></script>
+</html>
